@@ -1,0 +1,19 @@
+{
+  "name": "FIRE Retirement Planner",
+  "short_name": "FIRE Plan",
+  "description": "A mobile-first FIRE retirement planning calculator.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f5f9",
+  "theme_color": "#111827",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./public/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
