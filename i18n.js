@@ -82,7 +82,17 @@ export const dictionary = {
     localWage: "Local wage",
     applyBenchmark: "Use this benchmark",
     benchmarkNote: "Benchmarks are editable planning anchors, not advice.",
-    sourceNote: "Source basis"
+    sourceNote: "Source basis",
+    tutorialTitle: "How to use",
+    tutorialHint: "A quick walkthrough for building your FIRE plan.",
+    tutorialSteps: [
+      "Choose your display currency and language.",
+      "Enter your age, retirement age, current invested assets, monthly costs, pension, and monthly investing amount.",
+      "Use a country benchmark to load local accommodation and wage assumptions, then edit any value to match your real plan.",
+      "Check the FIRE target, estimated FIRE year, projected portfolio, and funding gap or surplus at the top.",
+      "Use sensitivity and crisis analysis to see how returns, retirement age, market drops, and inflation shocks affect the plan.",
+      "Open the cash-flow schedule to review annual withdrawals and remaining portfolio after retirement."
+    ]
   },
   zh: {
     appName: "FIRE 退休規劃",
@@ -135,7 +145,17 @@ export const dictionary = {
     pensionDeduct: "扣除退休金",
     close: "關閉",
     installReady: "可安裝 PWA",
-    swrLine: "目標總額等於每年需自提金額除以安全提領率。"
+    swrLine: "目標總額等於每年需自提金額除以安全提領率。",
+    tutorialTitle: "使用教學",
+    tutorialHint: "快速建立你的 FIRE 退休規劃。",
+    tutorialSteps: [
+      "選擇顯示幣別與語言。",
+      "輸入現在年齡、退休年齡、目前投資資產、每月支出、退休金與每月投資金額。",
+      "使用國家基準套用當地房租與生活工資假設，之後可依你的實際情況修改數值。",
+      "查看上方的 FIRE 目標、預估財務自由年份、退休時資產，以及資金缺口或餘裕。",
+      "使用敏感度與壓力測試，檢查報酬率、退休年齡、市場下跌與通膨衝擊的影響。",
+      "打開退休金流排程表，查看退休後每年提領與剩餘資產。"
+    ]
   },
   fr: {
     appName: "Plan FIRE",
@@ -188,7 +208,17 @@ export const dictionary = {
     pensionDeduct: "Moins pension",
     close: "Fermer",
     installReady: "PWA installable",
-    swrLine: "L'objectif est le besoin annuel divisé par le taux de retrait sûr."
+    swrLine: "L'objectif est le besoin annuel divisé par le taux de retrait sûr.",
+    tutorialTitle: "Mode d'emploi",
+    tutorialHint: "Un guide rapide pour construire votre plan FIRE.",
+    tutorialSteps: [
+      "Choisissez la devise d'affichage et la langue.",
+      "Saisissez votre âge, votre âge de retraite, vos actifs investis, vos coûts mensuels, votre pension et votre investissement mensuel.",
+      "Utilisez un benchmark pays pour charger les hypothèses locales de logement et de salaire, puis ajustez les valeurs selon votre situation.",
+      "Consultez l'objectif FIRE, l'année FIRE estimée, le portefeuille prévu et l'écart ou l'excédent en haut de page.",
+      "Utilisez la sensibilité et les scénarios de crise pour voir l'effet des rendements, de l'âge de retraite, des baisses de marché et de l'inflation.",
+      "Ouvrez le calendrier des flux pour examiner les retraits annuels et le portefeuille restant après la retraite."
+    ]
   },
   ja: {
     appName: "FIREプランナー",
@@ -241,7 +271,17 @@ export const dictionary = {
     pensionDeduct: "年金控除",
     close: "閉じる",
     installReady: "インストール可能PWA",
-    swrLine: "目標額は年間引出必要額を安全引出率で割ったものです。"
+    swrLine: "目標額は年間引出必要額を安全引出率で割ったものです。",
+    tutorialTitle: "使い方",
+    tutorialHint: "FIRE計画を作るための簡単な手順です。",
+    tutorialSteps: [
+      "表示通貨と言語を選びます。",
+      "現在年齢、退職年齢、現在の投資資産、毎月の支出、年金、毎月の投資額を入力します。",
+      "国別ベンチマークで現地の住居費と生活賃金の前提を読み込み、必要に応じて数値を編集します。",
+      "上部でFIRE目標額、推定FIRE年、予測資産、不足額または余剰額を確認します。",
+      "感度分析と危機分析で、利回り、退職年齢、市場下落、インフレショックの影響を確認します。",
+      "退職キャッシュフロー表を開き、退職後の年間引出額と残高を確認します。"
+    ]
   },
   ko: {
     appName: "FIRE 플래너",

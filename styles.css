@@ -430,6 +430,27 @@ input[type="range"] {
   background: #f1f2f7;
 }
 
+.tutorial-card {
+  background: #fffdf8;
+}
+
+.tutorial-list {
+  display: grid;
+  gap: 10px;
+  margin: 14px 0 0;
+  padding-left: 1.35rem;
+}
+
+.tutorial-list li {
+  color: #4f5663;
+  line-height: 1.45;
+}
+
+.tutorial-list li::marker {
+  color: var(--accent);
+  font-weight: 900;
+}
+
 .benchmark-note {
   margin: 14px 0 12px;
   color: var(--muted);

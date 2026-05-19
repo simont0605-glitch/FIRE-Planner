@@ -221,6 +221,18 @@ function render() {
         ${numberRow("monthlyInvestment", t("monthlyInvestment"), state.plan.monthlyInvestment, state.currency, 0, 1000000, 100, benchmarkCurrency)}
       </section>
 
+      <section class="card tutorial-card">
+        <div class="section-title">
+          <div>
+            <h2>${t("tutorialTitle")}</h2>
+            <p>${t("tutorialHint")}</p>
+          </div>
+        </div>
+        <ol class="tutorial-list">
+          ${t("tutorialSteps").map((step) => `<li>${step}</li>`).join("")}
+        </ol>
+      </section>
+
       <section class="card">
         <div class="section-title">
           <div>
